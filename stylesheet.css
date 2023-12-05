@@ -1,0 +1,129 @@
+body{
+
+color: #fdfdfd;
+font-family: roboto, sans-serif;
+/* background-image: url(images/Bigg\ background\ image.jpg);
+background-repeat: no-repeat;
+background-size: cover; */
+
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+
+
+}
+.background-container
+{
+    margin-top: 7%;
+    height: 80vh; /* Adjust this value to set the height of the background image container */
+    background: linear-gradient(to bottom, rgba(128, 128, 128, 0), black), url(images/Bigg\ background\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+@media (min-height: 600px) 
+{
+
+}
+footer a
+{
+    color: #fdfdfd;
+}
+main img:first-child
+{
+    width: 100vw;
+    position: relative;
+}
+body header
+{ 
+    border-color: black;
+    border: 0.5em solid;
+    color: red;
+    margin: auto;
+    text-align: center;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.428);
+    top: 0;
+    left: 0;
+    transition: all 250ms ease;
+
+}
+body header:hover
+{
+    background: black;
+    padding: 0.5em;
+}
+body header nav ul:last-child
+{
+    font-style: normal;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    border: 2px solid hotpink;
+
+}
+/* body main img:nth-child(1)
+{
+    -webkit-backdrop-filter: blur(10px);
+
+} */
+header li
+{
+/*     margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto; */
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+body main section h2, h3
+{
+   margin: auto;
+   color: #ffc40b;
+   font-size: large;
+   font-style: bold;
+
+}
+body main section img
+{
+    width: 10%;
+}
+.more
+{
+    color: rgb(224, 151, 26);;
+    font-size: 100px;
+    text-align: center;
+    justify-items: center;
+
+}
+a
+{
+    text-decoration: none;
+    font-style: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    background: #ffc40b;
+    padding: 0.5em;
+    border-radius: 0.6em;
+    transition: all 250ms ease;
+}
+a:hover
+{
+    transform: scale(2);
+
+}
+/* a:focus
+{
+    background-color: red;
+    border: 5px solid pink;
+    border-style: dotted;
+} */
